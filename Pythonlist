@@ -1,0 +1,7 @@
+"""According to the Python documentation(https://docs.python.org/2/library/collections.html), there is no ordering to the elements in a dictionary. Python can return the entries to you in whatever order it chooses. If you want a dictionary with order, you can use an OrderedDict.(https://docs.python.org/2/library/collections.html#collections.OrderedDict) However, since it must maintain order, this collection has worse performance than a normal Dict. """
+pair = {"Dad":40,"Mam":42,"Bob":21,"David":11}
+
+for i in pair:
+	print i
+
+
